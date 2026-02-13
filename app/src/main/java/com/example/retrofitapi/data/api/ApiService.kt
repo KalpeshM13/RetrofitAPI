@@ -1,6 +1,6 @@
-package com.example.myapplication.data.api
+package com.example.retrofitapi.data.api
 
-import com.example.myapplication.data.models.Post
+import com.example.retrofitapi.data.models.Post
 import retrofit2.http.GET
 
 interface ApiService {

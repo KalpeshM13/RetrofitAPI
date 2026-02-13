@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.view
+package com.example.retrofitapi.ui.view
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,9 +17,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.example.myapplication.data.models.Post
-import com.example.myapplication.ui.theme.PurpleGrey40
-import com.example.myapplication.viewModel.PostViewModel
+import com.example.retrofitapi.data.models.Post
+import com.example.retrofitapi.ui.theme.PurpleGrey40
+import com.example.retrofitapi.viewModel.PostViewModel
 
 @Composable
 fun PostListScreen(viewModel: PostViewModel= PostViewModel(), paddingValues: PaddingValues) {

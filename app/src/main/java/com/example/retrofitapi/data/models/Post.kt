@@ -1,4 +1,4 @@
-package com.example.myapplication.data.models
+package com.example.retrofitapi.data.models
 
 data class Post(
     val id: String,

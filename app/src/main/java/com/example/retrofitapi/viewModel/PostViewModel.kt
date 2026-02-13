@@ -1,11 +1,11 @@
-package com.example.myapplication.viewModel
+package com.example.retrofitapi.viewModel
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.myapplication.data.api.RetrofitInstance
-import com.example.myapplication.data.models.Post
+import com.example.retrofitapi.data.api.RetrofitInstance
+import com.example.retrofitapi.data.models.Post
 import kotlinx.coroutines.launch
 
 class PostViewModel: ViewModel() {
